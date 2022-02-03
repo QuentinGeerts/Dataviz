@@ -27,10 +27,24 @@ caption {
   vertical-align: bottom;
 }
 
+.left {
+  text-align: left;
+}
+
+.right {
+  text-align: right;
+}
+
+/* Backgrounds */
+
 .bg-yellow {
   background: yellow;
 }
 
 .bg-blue {
   background: blue;
+}
+
+.bg-green {
+  background: green;
 }
