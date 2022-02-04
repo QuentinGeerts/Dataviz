@@ -80,3 +80,19 @@ for (let i = 0; i < 10; i++) {
 const days =  ["dimanche", "lundi", "mardi", "mercredi", "jeudi", "vendredi", "samedi"]
 
 console.log(`Nous sommes ${days[new Date().getDay()]}`);
+
+
+// -- Exo 
+
+let nbRows = prompt("Entrez le nom de lignes désirées :")
+let stars = ""
+
+
+for (let i = 0; i < nbRows; i++) {
+  for (let j = 0; j <= i; j++) {
+    stars += "*"
+  }  
+  stars += "\n"
+}
+
+console.log(stars);
